@@ -27,8 +27,7 @@ Class AHR_Database_Connection{
         try{
             
                $configs = parse_ini_file('database.ini');
-
-               $this->_database= 'yoshi'; //$configs[databaseName];
+               $this->_database= 'nails'; //$configs[databaseName];
                $this->_host = 'localhost';//$configs[hostName];
                $this->_user= 'root';//$configs[userName];
                $this->_password='';// $configs[password];
